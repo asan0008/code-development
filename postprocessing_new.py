@@ -343,7 +343,7 @@ if __name__ == "__main__":
    # import glob
    # files = glob.glob("r*.nc")
    # for file in files:
-   for traj in range(50): 
+   for traj in range(1): 
        dir_name='/short/g16/as6030/traj_2.0/'
        #dir_name='/home/565/as6030/MixedFlow/MixedFlowCode1'
        base_filename=('r%sGamma0.1Chi1.0Nb24Nc21dt0.001Fraenkelb50.0phi2.0P5' % (traj+1))
