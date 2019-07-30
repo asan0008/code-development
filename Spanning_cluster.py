@@ -286,7 +286,7 @@ def process(cdffile, file_output, All_Prop, SF):
                                 elif PBCz == 1:
                                     clustrz = min(abs(zmax2c - zmin2c), abs(zmax1c - zmin1c))
  
-                                if clustrx >= Lx-1 or clustry >= Lx-1 or clustrz >= Lz-1:
+                                if clustrx >= Lx-1 or clustry >= Lx-1 or clustrz >= Lx-1:
                                     #print 'clustrx = ', clustrx
                                     #print 'clustry = ', clustry
                                     #print 'clustrz = ', clustrz
